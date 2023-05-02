@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+html, body {
+    background-color: rgb(240, 248, 255);
+}
+
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    height: 180px;
+    line-height: 15vh;
+    background-color: rgba(0, 0, 0, 0.699);
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+
+menu {
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.712);
+    display: none;
+    border-radius: 6px;
+}
+
+
+menu > ul > li {
+    display: block;
+    margin-left: 5vw;
+    padding: 10px;
+    list-style-type: none;
+}
+
+
+menu a {
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.699);
+}
+
+
+menu a:hover {
+    color: white;
+}
+
+
+
+
+i {
+    padding: 10px;
+    cursor: pointer;
+}
+

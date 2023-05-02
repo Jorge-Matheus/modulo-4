@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+
+    #burguer {
+        color: black;
+    }
+
+    #burguer:hover {
+        color: red;
+    }
+
+
+    header > #itens > i {
+        display: blcok;
+    }
+
+
+    #itens {
+        font-size: 1.2em;
+        display: none;
+    }
+
+
+    main > article > h2 {
+        width: 40vw;
+        margin: auto;
+        font-family: 'Anton', sans-serif;
+        border: 3px solid black;
+        padding: 10px;
+
+    }
+
+    main > article > p {
+        width: 30vw;
+        margin: auto;
+        font-family: 'Anton', sans-serif;
+    }
+
+    main {
+        border: 3px solid black;
+    }
+}
+
+
