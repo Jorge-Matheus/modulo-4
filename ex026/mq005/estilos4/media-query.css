@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-
-/* Mobile */
-
 @media screen and (min-width: 768px) {
 
     i#burguer {
@@ -13,11 +7,16 @@
     }
 
 
-    #itens {
+    menu {
         display: block;
     }
 
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
 }
-
-
-
